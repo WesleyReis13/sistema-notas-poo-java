@@ -7,7 +7,7 @@ public class Main {
         System.out.println("--- Sistema de Registro de Notas Escolares ---");
         System.out.print("Quantos alunos serão cadastrados? ");
         int quantidadeAlunos = scanner.nextInt();
-        scanner.nextLine(); // Limpa o buffer do teclado
+        scanner.nextLine();
 
 
         Aluno[] alunos = new Aluno[quantidadeAlunos];
